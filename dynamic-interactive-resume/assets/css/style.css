@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(23, 23, 23);
+    align-items: center;
+}
+
+.section-heading {
+    font-size: 1.2rem;
+    font-family: 'Poppins', Arial, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.resume-paper {
+    display: flex;
+    width: 595px;
+    height: 842px;
+    background-color: white;
+    margin-top: 12px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 100%;
+    background-color: #253439;
+}
+
+.picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* background-color: brown; */
+    margin: 50px 44px 0 44px ;
+    position: absolute;
+    background-image: url("/assets/img/profile.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    width: 150px;
+    margin: 220px 0 0 44px;
+}
+
+.name {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.para {
+    margin-top: 1.6px;
+    letter-spacing: 0.5px;
+    font-size: 1.05rem;
+}
+
+.container-2 {
+    width: 60%;
+    height: 842px;
+    background-color: #ffffff;
+    padding: 0 35px 0 35px;
+}
+
+.container-2 p, h2, h4 {
+    color: #101f24;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.heading {
+    margin-top: 90px;
+    font-size: 1.8rem;
+}
+
+.section-heading-2 {
+    margin-top: 12px;
+}
+
+.comp-name {
+    margin-top: 8px;
+}
+
+.education {
+    margin-top: 25px;
+    font-size: 1.8rem;
+}
+
+.skill {
+    margin-top: 25px;
+    font-size: 1.8rem
+}
+
+.hobbies {
+    margin-top: 25px;
+    font-size: 1.8rem
+}
+
+h2:hover,
+h4:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #101f24;
+}
+
+.section-heading:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #101f24;
+}
+
+.name {
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 542px) {
+    .picture {
+        width: 130px;
+        height: 130px;
+        
+    }
+
+    .text {
+        margin: 220px 0 0 44px;
+    }
+}
+
+@media (max-width: 470px) {
+    .picture {
+        width: 110px;
+        height: 110px;
+        
+    }
+
+    .text {
+        margin: 170px 0 0 24px;
+    }
+    .heading{
+        font-size: 1.5rem;
+        margin-top: 50px;
+    }
+    .picture {
+        margin: 40px 24px 0 24px ;
+    }
+    .education,
+    .skill,
+    .hobbies {
+        font-size: 1.5rem;
+    }
+    .container {
+        width: 47%;
+    }
+}
+
+@media (max-width: 375px) {
+    .picture {
+        width: 100px;
+        height: 100px;
+        
+    }
+    .para {
+        font-size: 0.9rem;
+    }
+    .text {
+        margin: 170px 0 0 12px;
+    }
+    .heading{
+        font-size: 1.5rem;
+        margin-top: 27px;
+    }
+    .picture {
+        margin: 40px 24px 0 24px ;
+    }
+    .education,
+    .skill,
+    .hobbies {
+        font-size: 1.5rem;
+    }
+    .container {
+        width: 50%;
+    }
+    .container-2 {
+        width: 60%;
+        height: 842px;
+        padding: 0 20px 0 20px;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    .container-2 {
+        width: 60%;
+        height: 820px;
+        padding: 0 17px 0 17px;
+    }
+    .container-2 p {
+        margin-top: 5px;
+    }
+}
